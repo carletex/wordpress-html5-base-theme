@@ -5,7 +5,7 @@ Minimal html5 theme for Wordpress. I use this theme on my WP projects:
 ## Use
 
 1. Download/Clone this repository
-2. Change the folder name to your theme name
+2. Create a folder with you theme name and move the files inside
 3. In functions.php, search and replace 'wordpresstheme' to your theme name
 4. In style.css, change the metadata as you need
 5. Ready to develop!

@@ -11,7 +11,7 @@
 		<p><?php _e('No hay entradas .'); ?></p>
 	<?php endif; ?>
 
-</section> <!-- Fin de main -->
+</section>
 
 <?php  get_sidebar()?>
 

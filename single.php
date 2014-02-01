@@ -15,9 +15,9 @@
 
     <?php endif; ?>
 
-	</article> <!-- Fin de single -->
+	</article>
 
-</section> <!-- Fin de main -->
+</section>
 
 <?php  get_sidebar()?>
 

@@ -12,10 +12,10 @@
 <body <?php body_class(); ?>>
   <div class="wrapper">
     <header>
-      <?php if ( get_theme_mod( 'site_logo' ) ) : ?>
+      <?php if ( get_theme_mod( 'logo' ) ) : ?>
         <div class='logo'>
             <a href='<?php echo esc_url( home_url( '/' ) ); ?>' rel='home'>
-              <img src='<?php echo esc_url( get_theme_mod( 'site_logo' ) ); ?>' alt='<?php echo esc_attr( bloginfo( 'name') ); ?>'>
+              <img src='<?php echo esc_url( get_theme_mod( 'logo' ) ); ?>' alt='<?php echo esc_attr( bloginfo( 'name') ); ?>'>
             </a>
         </div>
       <?php endif; ?>

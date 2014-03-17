@@ -4,14 +4,15 @@ Minimal html5 theme for Wordpress. I use this theme on my WP projects:
 
 ## Use
 
+You can create a [child-theme](https://codex.wordpress.org/Child_Themes), or you can rather edit the theme directly with the following steps.
+
+
 1. Download/Clone this repository
 2. Create a folder with you theme name and move the files inside
 3. In functions.php, search and replace 'wordpresstheme' to your theme name
 4. In style.css, change the metadata as you need
 5. Ready to develop!
 
-Change/Upgrade all you need to adapt the theme to your needs
-
 ## Include
 
-**css/Normalize.css**
+css/Normalize.css: Makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. [Read more](http://necolas.github.io/normalize.css/).

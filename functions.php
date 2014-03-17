@@ -38,7 +38,7 @@ function wordpresstheme_theme_customizer( $wp_customize ) {
 
 	$wp_customize->add_setting( 'logo' );
 
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'onthecorner_logo', array(
+	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'site_logo', array(
     	'label'    => __( 'Logo', 'wordpresstheme' ),
     	'section'  => 'logo_section',
     	'settings' => 'logo',

@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
+  <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?> | <?php bloginfo('name'); ?></title>
   <meta name="description" content="<?php bloginfo( 'description' ); ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/normalize.css' ?>" type="text/css" />
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" />

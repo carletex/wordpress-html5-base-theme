@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" />
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
   <?php wp_head(); ?>
+  <!--[if lt IE 9]>
+  <script src=<?php echo get_template_directory_uri() . '/js/html5shiv.min.js' ?>"></script>
+  <![endif]-->
+  <script src="<?php echo get_template_directory_uri() . '/js/script.js' ?>"></script>
 </head>
 <body <?php body_class(); ?>>
   <div class="wrapper">

@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?> | <?php bloginfo('name'); ?></title>
   <meta name="description" content="<?php bloginfo( 'description' ); ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/normalize.css' ?>" type="text/css" />
